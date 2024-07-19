@@ -1,3 +1,7 @@
+"""
+https://medium.com/dev-genius/50-python-features-tips-tricks-that-you-dont-know-8a2cb55cd493
+"""
+
 
 def walrus_operator():
     """
@@ -172,143 +176,177 @@ def collections_namedtuple():
     print(alice.name)  # Alice
 
 
-""" TO BE CONTINUED
-18. Using 'else’ with Loops
-Execute a block of code if a loop completes without encountering a break.
+def looping_else():
 
-for num in range(2, 10):
-    for i in range(2, num):
-        if num % i == 0:
-            print(f"{num} is not a prime number.")
-            break
-    else:
-        print(f"{num} is a prime number.")
-19. Generator Expressions
-Create generators using a similar syntax to list comprehensions, but with parentheses.
+    #  18. Using 'else’ with Loops
+    # Execute a block of code if a loop completes without encountering a break.
 
-squares = (x ** 2 for x in range(10))
-for square in squares:
-    print(square)
-20. collections.defaultdict
-A defaultdict automatically assigns a default value for nonexistent keys.
+    for num in range(2, 10):
+        for i in range(2, num):
+            if num % i == 0:
+                print(f"{num} is not a prime number.")
+                break
+        else:
+            print(f"{num} is a prime number.")
 
-from collections import defaultdict
 
-word_count = defaultdict(int)
-words = ["apple", "banana", "apple", "orange"]
+def generator_expressions():            
+    # 019. Generator Expressions
+    # Create generators using a similar syntax to list comprehensions, but with parentheses.
 
-for word in words:
-    word_count[word] += 1
-21. Multiple Assignment
-Assign values to multiple variables in a single line.
+    squares = (x ** 2 for x in range(10))
+    for square in squares:
+        print(square)
 
-a, b, c = 1, 2, 3
-22. Unpacking
-Unpack elements from iterables.
+def defaultdict():
 
-nums = [1, 2, 3, 4, 5]
-first, *middle, last = nums
-print(first)  # 1
-print(middle)  # [2, 3, 4]
-print(last)  # 5
-23. F-strings (Python 3.6+)
-Easily format strings with variables.
+    # 20. collections.defaultdict
+    # A defaultdict automatically assigns a default value for nonexistent keys.
 
-name = "Alice"
-age = 30
-print(f"{name} is {age} years old.")  # Alice is 30 years old.
-24. inspect.signature
-Get the signature of a function or method, including its arguments and their default values.
+    from collections import defaultdict
 
-import inspect
+    word_count = defaultdict(int)
+    words = ["apple", "banana", "apple", "orange"]
 
-def example_function(a, b=5, c="hello"):
-    pass
+    for word in words:
+        word_count[word] += 1
 
-signature = inspect.signature(example_function)
-print(signature)  # (a, b=5, c='hello')
-25. functools.lru_cache
-Add a Least Recently Used (LRU) cache to your functions to cache results and improve performance.
 
-from functools import lru_cache
+def multiple_assignment():
+    # 21. Multiple Assignment
+    # Assign values to multiple variables in a single line.
 
-@lru_cache(maxsize=None)
-def fib(n):
-    if n < 2:
-        return n
-    return fib(n - 1) + fib(n - 2)
+    a, b, c = 1, 2, 3
 
-print(fib(100))  # 354224848179261915075
-26. functools.wraps
-Preserve the original function’s metadata when using decorators.
 
-from functools import wraps
+def unpacking():
+    # 22. Unpacking
+    # Unpack elements from iterables.
 
-def my_decorator(func):
-    @wraps(func)
-    def wrapper(*args, **kwargs):
-        print("Decorator called")
-        return func(*args, **kwargs)
-    return wrapper
+    nums = [1, 2, 3, 4, 5]
+    first, *middle, last = nums
+    print(first)  # 1
+    print(middle)  # [2, 3, 4]
+    print(last)  # 5
 
-@my_decorator
-def example_function():
-    """This is an example function."""
-    pass
 
-print(example_function.__doc__)  # This is an example function.
-27. getattr, setattr, and hasattr
-Dynamically access, set, or check for attributes in objects.
+def f_strings():     
+    # 23. F-strings (Python 3.6+)
+    # Easily format strings with variables.
 
-class MyClass:
-    def __init__(self):
-        self.my_attr = "hello"
+    name = "Alice"
+    age = 30
+    print(f"{name} is {age} years old.")  # Alice is 30 years old.
 
-obj = MyClass()
 
-print(getattr(obj, "my_attr"))  # hello
-setattr(obj, "my_attr", "world")
-print(getattr(obj, "my_attr"))  # world
-print(hasattr(obj, "non_existent_attr"))  # False
-28. operator.itemgetter
-Get an item from an object, typically used with sorted, map, or filter.
+def inspect_signature():
+    # 24. inspect.signature
+    # Get the signature of a function or method, including its arguments and their default values.
 
-from operator import itemgetter
+    import inspect
 
-data = [{"name": "Alice", "age": 30}, {"name": "Bob", "age": 25}, {"name": "Charlie", "age": 22}]
-sorted_data = sorted(data, key=itemgetter("age"))
-print(sorted_data)  # [{'name': 'Charlie', 'age': 22}, {'name': 'Bob', 'age': 25}, {'name': 'Alice', 'age': 30}]
-29. os.walk
-Recursively traverse directories and their contents.
+    def example_function(a, b=5, c="hello"):
+        pass
 
-import os
+    signature = inspect.signature(example_function)
+    print(signature)  # (a, b=5, c='hello')
 
-for root, dirs, files in os.walk("my_directory"):
-    for file in files:
-        print(f"Processing {os.path.join(root, file)}")
-30. 're' module
-Use regular expressions to manipulate and search strings.
 
-import re
+def functools_lru_cache():    
+    # 25. functools.lru_cache
+    # Add a Least Recently Used (LRU) cache to your functions to cache results and improve performance.
 
-text = "The quick brown fox jumps over the lazy dog."
-pattern = r"\b\w{5}\b"
+    from functools import lru_cache
 
-five_letter_words = re.findall(pattern, text)
-print(five_letter_words)  # ['quick', 'brown', 'jumps']
-31. collections.Counter
-Count the occurrences of elements in a list.
+    @lru_cache(maxsize=None)
+    def fib(n):
+        if n < 2:
+            return n
+        return fib(n - 1) + fib(n - 2)
 
-from collections import Counter
+    print(fib(100))  # 354224848179261915075
 
-words = ["apple", "banana", "apple", "orange"]
-word_count = Counter(words)
-print(word_count)  # Counter({'apple': 2, 'banana': 1, 'orange': 1})
-32. Chaining Comparison Operators
-Chain multiple comparisons in a single expression.
+"""    
+    26. functools.wraps
+    Preserve the original function’s metadata when using decorators.
 
-x = 5
-print(1 < x < 10)  # True
+    from functools import wraps
+
+    def my_decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            print("Decorator called")
+            return func(*args, **kwargs)
+        return wrapper
+
+    @my_decorator
+    def example_function():
+        """This is an example function."""
+        pass
+
+    print(example_function.__doc__)  # This is an example function.
+    27. getattr, setattr, and hasattr
+    Dynamically access, set, or check for attributes in objects.
+
+    class MyClass:
+        def __init__(self):
+            self.my_attr = "hello"
+
+    obj = MyClass()
+
+    print(getattr(obj, "my_attr"))  # hello
+    setattr(obj, "my_attr", "world")
+    print(getattr(obj, "my_attr"))  # world
+    print(hasattr(obj, "non_existent_attr"))  # False
+    28. operator.itemgetter
+    Get an item from an object, typically used with sorted, map, or filter.
+
+    from operator import itemgetter
+
+    data = [{"name": "Alice", "age": 30}, {"name": "Bob", "age": 25}, {"name": "Charlie", "age": 22}]
+    sorted_data = sorted(data, key=itemgetter("age"))
+    print(sorted_data)  # [{'name': 'Charlie', 'age': 22}, {'name': 'Bob', 'age': 25}, {'name': 'Alice', 'age': 30}]
+    29. os.walk
+    Recursively traverse directories and their contents.
+
+    import os
+
+    for root, dirs, files in os.walk("my_directory"):
+        for file in files:
+            print(f"Processing {os.path.join(root, file)}")
+    30. 're' module
+    Use regular expressions to manipulate and search strings.
+
+    import re
+
+    text = "The quick brown fox jumps over the lazy dog."
+    pattern = r"\b\w{5}\b"
+
+    five_letter_words = re.findall(pattern, text)
+    print(five_letter_words)  # ['quick', 'brown', 'jumps']
+
+
+
+"""
+
+def collections_counter():
+    # Count the occurrences of elements in a list.
+
+    from collections import Counter
+
+    words = ["apple", "banana", "apple", "orange"]
+    word_count = Counter(words)
+    print(word_count)  # Counter({'apple': 2, 'banana': 1, 'orange': 1})
+
+
+def chaining_comparison_operators():    
+    # 32. Chaining Comparison Operators
+    # Chain multiple comparisons in a single expression.
+
+    x = 5
+    print(1 < x < 10)  # True
+
+"""    
 33. socket.gethostname and socket.gethostbyname
 Get the hostname and IP address of the current machine.
 
