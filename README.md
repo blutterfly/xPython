@@ -11,3 +11,4 @@ Explore Python Tips, Tricks
 107. https://medium.com/@datajournal/how-to-parse-html-with-python-94495c11bc96
 108. https://medium.com/limitless-investor/358-return-per-trade-i-created-an-indicator-that-will-change-your-trading-forever-69824d8d0de3
 109. https://medium.com/@yaduvanshineelam09/10-python-functions-every-data-scientist-must-memorize-fc5ff51d6c91
+110. https://medium.com/python-in-plain-english/top-10-python-libraries-for-everyday-automation-unlocking-efficiency-beyond-the-basics-932235d6224d
