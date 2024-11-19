@@ -14,4 +14,5 @@ Explore Python Tips, Tricks
 110. https://medium.com/python-in-plain-english/top-10-python-libraries-for-everyday-automation-unlocking-efficiency-beyond-the-basics-932235d6224d
 111. https://medium.com/@Behavior2020/10-python-functions-every-data-scientist-must-memorize-60821960e2ad
 112. https://medium.com/@abdur-rahman/10-python-scripts-to-automate-your-daily-tasks-a878d06f1b77
-113. 
+113. https://medium.com/python-in-plain-english/10-python-command-line-automation-hacks-to-save-time-18d5750d6d8e
+114. 
