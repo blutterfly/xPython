@@ -15,4 +15,5 @@ Explore Python Tips, Tricks
 111. https://medium.com/@Behavior2020/10-python-functions-every-data-scientist-must-memorize-60821960e2ad
 112. https://medium.com/@abdur-rahman/10-python-scripts-to-automate-your-daily-tasks-a878d06f1b77
 113. https://medium.com/python-in-plain-english/10-python-command-line-automation-hacks-to-save-time-18d5750d6d8e
-114. 
+114. https://medium.com/pythoneers/10-insanely-useful-automation-scripts-you-need-to-try-using-python-4fa538a9152b
+115. 
