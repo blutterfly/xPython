@@ -40,49 +40,57 @@ Create a list of your favorite hobbies.
 Add a new hobby to the list.
 Print each hobby using a loop.
 
+---
 ## 2. Dictionaries
 Dictionaries store data in key-value pairs.
 
-Creating a Dictionary
-python
-Copy code
+**Creating a Dictionary**
+```python
 student = {"name": "Alex", "age": 16, "grade": "A"}
 print(student)
-Accessing Items
-python
-Copy code
+```
+
+**Accessing Items**
+```python
 print(student["name"])  # Access value by key
-Adding/Updating Keys
-python
-Copy code
+```
+
+**Adding/Updating Keys**
+```python
 student["school"] = "High School"  # Add a new key
 student["grade"] = "A+"  # Update value
 print(student)
-Iterating Through a Dictionary
-python
-Copy code
+```
+
+**Iterating Through a Dictionary**
+```python
 for key, value in student.items():
     print(key, ":", value)
-Common Dictionary Methods
+```
+
+**Common Dictionary Methods**
 keys(): Get all keys
 values(): Get all values
 items(): Get all key-value pairs
-Exercise:
+
+**Exercise:**
 Create a dictionary with details about your favorite book (title, author, year).
 Add a new key for the genre.
 Print all the keys and values.
-3. DataFrames (Using pandas)
+
+---
+## 3. DataFrames (Using pandas)
 What is a DataFrame? A DataFrame is a 2-dimensional table-like data structure in the pandas library. Think of it as a spreadsheet.
 
 Setting Up pandas
 Make sure you have pandas installed:
 
-bash
-Copy code
+```bash
 pip install pandas
-Creating a DataFrame
-python
-Copy code
+```
+
+**Creating a DataFrame**
+```python
 import pandas as pd
 
 data = {
@@ -93,44 +101,54 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
-Accessing Columns
-python
-Copy code
+```
+
+**Accessing Columns**
+```python
 print(df["Name"])  # Access a single column
 print(df[["Name", "Age"]])  # Access multiple columns
-Filtering Rows
-python
-Copy code
+```
+
+**Filtering Rows**
+```python
 print(df[df["Age"] > 16])  # Students older than 16
-Adding a New Column
-python
-Copy code
+```
+
+**Adding a New Column**
+```python
 df["Passed"] = [True, False, True]
 print(df)
-Iterating Through Rows
-python
-Copy code
+```
+
+**Iterating Through Rows**
+```python
 for index, row in df.iterrows():
     print(row["Name"], "is", row["Age"], "years old.")
-Exercise:
+```
+
+**Exercise:**
 Create a DataFrame with data about your favorite movies (columns: Title, Year, Genre).
 Add a new column for Rating.
 Filter the movies to show only those released after 2010.
-4. Comparing Lists, Dictionaries, and DataFrames
+
+---
+## 4. Comparing Lists, Dictionaries, and DataFrames
 Feature	List	Dictionary	DataFrame
 Data Organization	Ordered, items by index	Key-value pairs	Rows and columns
 Access Method	By index	By key	By row/column
 Ideal Use Case	Simple collections	Mapping relationships	Tabular data
-5. Final Project Idea: Student Report System
+
+---
+## 5. Final Project Idea: Student Report System
 Build a system that:
 
 Stores student data in a DataFrame.
 Allows adding a new student (Name, Age, Grade).
 Filters students by a minimum grade.
 Prints all student data.
-Example Code for the System:
-python
-Copy code
+
+**Example Code for the System:**
+```python
 import pandas as pd
 
 # Initial data
@@ -148,3 +166,4 @@ df = df.append(new_student, ignore_index=True)
 # Filter by grade
 print("Students with grade A or higher:")
 print(df[df["Grade"] >= "A"])
+```
