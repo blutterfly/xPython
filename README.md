@@ -16,5 +16,5 @@ Explore Python Tips, Tricks
 112. https://medium.com/@abdur-rahman/10-python-scripts-to-automate-your-daily-tasks-a878d06f1b77
 113. https://medium.com/python-in-plain-english/10-python-command-line-automation-hacks-to-save-time-18d5750d6d8e
 114. https://medium.com/pythoneers/10-insanely-useful-automation-scripts-you-need-to-try-using-python-4fa538a9152b
-115. 
+115. https://medium.com/@yashwanthnandam/11-python-scripts-to-simplify-your-life-automate-daily-tasks-67d4ecd4d3d8
 116. 
