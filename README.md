@@ -20,3 +20,5 @@ Explore Python Tips, Tricks
 116. https://medium.com/python-in-plain-english/from-basics-to-advanced-python-f-string-tip-that-save-time-f64ec59a259a
 117. https://medium.com/python-in-plain-english/creating-50-stunning-charts-in-python-the-basics-with-a-twist-7e63764f2b9d
 118. https://medium.com/stackademic/building-a-stock-trading-strategy-visualizer-app-in-python-e73334d8f06d
+119. https://medium.com/ai-in-plain-english/from-jupyter-to-production-deploying-machine-learning-models-like-a-pro-592106792676
+120. https://medium.com/python-in-plain-english/stop-wasting-time-in-excel-let-python-do-the-work-4bdba1700f86
