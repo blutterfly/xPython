@@ -19,3 +19,4 @@ Explore Python Tips, Tricks
 115. https://medium.com/@yashwanthnandam/11-python-scripts-to-simplify-your-life-automate-daily-tasks-67d4ecd4d3d8
 116. https://medium.com/python-in-plain-english/from-basics-to-advanced-python-f-string-tip-that-save-time-f64ec59a259a
 117. https://medium.com/python-in-plain-english/creating-50-stunning-charts-in-python-the-basics-with-a-twist-7e63764f2b9d
+118. https://medium.com/stackademic/building-a-stock-trading-strategy-visualizer-app-in-python-e73334d8f06d
