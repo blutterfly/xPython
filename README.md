@@ -17,4 +17,4 @@ Explore Python Tips, Tricks
 113. https://medium.com/python-in-plain-english/10-python-command-line-automation-hacks-to-save-time-18d5750d6d8e
 114. https://medium.com/pythoneers/10-insanely-useful-automation-scripts-you-need-to-try-using-python-4fa538a9152b
 115. https://medium.com/@yashwanthnandam/11-python-scripts-to-simplify-your-life-automate-daily-tasks-67d4ecd4d3d8
-116. 
+116. https://medium.com/python-in-plain-english/from-basics-to-advanced-python-f-string-tip-that-save-time-f64ec59a259a
