@@ -5,21 +5,21 @@ Explore Python Tips, Tricks
 1. https://medium.com/@alexzap922/top-128-utile-python-libraries-for-aspiring-data-scientists-to-try-b431b4d6f0c3
 
 ## Public-Domain Datasets, Models & APIs
-  Awesome Public Datasets: This is a list of topic-centric public data sources in high quality. They are collected and tidied from blogs, answers, and user responses.
-  Best Free Public Datasets to Use in Python
-  Kaggle: Find 415,659 Datasets
-  Best Dataset Search Engines for Your Python Projects
-  Datasets — UCI Machine Learning Repository
-  yfinance 0.2.51 Download market data from Yahoo! Finance API
-  nlp-datasets Alphabetical list of free/public domain datasets with text data for use in NLP
-  Many ventures provide pre-trained models, one of which is Hugging Face launched in 2017.
-  https://twelvedata.com/ Access stocks, Forex and other financial assets from anywhere at any time.
++  Awesome Public Datasets: This is a list of topic-centric public data sources in high quality. They are collected and tidied from blogs, answers, and user responses.
++  Best Free Public Datasets to Use in Python
++  Kaggle: Find 415,659 Datasets
++  Best Dataset Search Engines for Your Python Projects
++  Datasets — UCI Machine Learning Repository
++  yfinance 0.2.51 Download market data from Yahoo! Finance API
++  nlp-datasets Alphabetical list of free/public domain datasets with text data for use in NLP
++  Many ventures provide pre-trained models, one of which is Hugging Face launched in 2017.
++  https://twelvedata.com/ Access stocks, Forex and other financial assets from anywhere at any time.
 
 ## I/O Data Handling
-Pandas is a fundamental data manipulation library in Python. It provides data structures like DataFrame and Series, enabling the smooth handling of structured data. Pandas provides a set of tools to facilitate data cleaning, filtering, merging, grouping, and aggregation.
-While NumPy is primarily known for its numerical computing capabilities, it also plays a significant role in data manipulation. It provides support for arrays and matrices, enabling efficient manipulation of large datasets.
-SciPy builds on NumPy and provides additional scientific computing functionalities, including statistical functions, optimization, integration, interpolation, and more.
-Polars is a DataFrame library completely written in Rust and is built to empower Python developers with a scalable and efficient framework for handling data and is considered as an alternative to the very popular pandas library. It provides a wide range of functionalities that facilitate various data manipulation and analysis tasks.  
++ Pandas is a fundamental data manipulation library in Python. It provides data structures like DataFrame and Series, enabling the smooth handling of structured data. Pandas provides a set of tools to facilitate data cleaning, filtering, merging, grouping, and aggregation.
++ While NumPy is primarily known for its numerical computing capabilities, it also plays a significant role in data manipulation. It provides support for arrays and matrices, enabling efficient manipulation of large datasets.
++ SciPy builds on NumPy and provides additional scientific computing functionalities, including statistical functions, optimization, integration, interpolation, and more.
++ Polars is a DataFrame library completely written in Rust and is built to empower Python developers with a scalable and efficient framework for handling data and is considered as an alternative to the very popular pandas library. It + + provides a wide range of functionalities that facilitate various data manipulation and analysis tasks.  
 
 ## Reference Articles
 101. https://medium.com/dev-genius/50-python-features-tips-tricks-that-you-dont-know-8a2cb55cd493
