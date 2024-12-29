@@ -1,6 +1,9 @@
 # xPython
 Explore Python Tips, Tricks
 
+## Dig Deeper
+1. https://medium.com/@alexzap922/top-128-utile-python-libraries-for-aspiring-data-scientists-to-try-b431b4d6f0c3
+
 ## Reference Articles
 101. https://medium.com/dev-genius/50-python-features-tips-tricks-that-you-dont-know-8a2cb55cd493
 102. https://medium.com/stackademic/only-pro-programmers-know-these-7-simple-python-command-line-flags-dfab0779547f
@@ -23,4 +26,4 @@ Explore Python Tips, Tricks
 119. https://medium.com/ai-in-plain-english/from-jupyter-to-production-deploying-machine-learning-models-like-a-pro-592106792676
 120. https://medium.com/python-in-plain-english/stop-wasting-time-in-excel-let-python-do-the-work-4bdba1700f86
 121. https://medium.com/towardsdev/accelerate-your-python-code-with-cupy-a-beginners-guide-to-gpu-computing-82728f9f33af
-122. 
+123. 
