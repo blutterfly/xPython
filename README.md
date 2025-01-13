@@ -27,4 +27,5 @@ Explore Python Tips, Tricks
 119. https://medium.com/ai-in-plain-english/from-jupyter-to-production-deploying-machine-learning-models-like-a-pro-592106792676
 120. https://medium.com/python-in-plain-english/stop-wasting-time-in-excel-let-python-do-the-work-4bdba1700f86
 121. https://medium.com/towardsdev/accelerate-your-python-code-with-cupy-a-beginners-guide-to-gpu-computing-82728f9f33af
-123. 
+123. https://medium.com/python-in-plain-english/30-python-command-line-tricks-that-i-learned-in-the-past-3-years-751a49e77845
+124. 
